@@ -1,0 +1,33 @@
+.mainpage{
+  margin-left: 5px;
+  border: 1px solid #3e3e3e;
+  border-radius: 20px;
+  height: 86.5vh;
+  background-color: #fefefe;
+}
+
+.container {
+  
+  width: 80%;
+  text-align: center;
+}
+
+.message-box {
+  width: 40vw;
+  background-color: #3e3e3e;
+  color: #fefefe;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.message-box h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.message-box p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fefefe;
+}

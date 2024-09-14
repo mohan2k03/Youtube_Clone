@@ -1,0 +1,42 @@
+.sidebar {
+  width: 5vw;
+  height: 80.5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+
+.home {
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #3e3e3e;
+}
+
+.shorts {
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #3e3e3e;
+}
+
+.subscriptions {
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #3e3e3e;
+}
+
+.you {
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #3e3e3e;
+}
+
+.history {
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #3e3e3e;
+}

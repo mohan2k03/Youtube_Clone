@@ -1,0 +1,85 @@
+.sidebar2 {
+  overflow-y: hidden;
+  border-radius: 10px;
+  height: 84vh;
+  width:18vw;
+  padding: 10px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar2:hover {
+  overflow-y: scroll;
+  overflow-wrap: ;
+}
+
+.section {
+  margin-bottom: 20px;
+  border-bottom: 0.3px solid #3e3e3e;
+}
+
+.item {
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+  display: flex;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  .icon {
+    padding-right: 15px;
+    font-size: 30px;
+  }
+}
+
+.item:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.youtube {
+  color: red;
+}
+
+.sign-in {
+  font-size: 14px;
+  color: #555;
+}
+
+.sign-in-btn {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #0073e6;
+  border: 0.5px solid #3e3e3e;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  .user {
+    margin-top: 4px;
+    font-size: 18px;
+  }
+  span {
+  margin-left: 5px;
+  }
+}
+
+.explore .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  color: #777;
+}
+
+.footer .item {
+  padding: 5px 0;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: #bbb;
+}

@@ -1,0 +1,108 @@
+.navbar {
+  padding-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.navbar__left,
+.navbar__center,
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn,
+.search-btn,
+.mic-btn,
+.options-btn,
+.sign-in-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.menu-icon {
+  font-size: 40px;
+}
+
+.logo {
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.country-code {
+  margin-left: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  width: 300px;
+}
+
+.search-btn {
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  width: 50px;
+}
+
+.mic-btn {
+  padding-top: 5px;
+  font-size: 18px;
+  margin-left: 10px;
+  height: 40px;
+  width:40px;
+  border: .5px solid #ccc;
+  border-radius: 20px;
+}
+
+.options-btn {
+  height: 40px;
+  width:40px;
+  border: .5px solid #ccc;
+  border-radius: 20px;
+}
+  
+.sign-in-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #0073e6;
+  border: 0.5px solid #3e3e3e;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  .user {
+    margin-top: 4px;
+    font-size: 18px;
+  }
+  span {
+  margin-left: 5px;
+  }
+}
+
+.sidebar {
+  width: 100vw;
+}
+
+#sidebar-active {
+  display: none;
+}
